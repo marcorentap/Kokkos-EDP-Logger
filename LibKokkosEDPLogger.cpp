@@ -16,8 +16,6 @@
 #include <stdexcept>
 #include <string>
 
-constexpr int AVG_WINDOW_SIZE = 5;
-
 KokkosEDPLogger::KokkosEDPLogger() {
   // Open log file
   logFile.open("KokkosEDPLogger.kernel.csv",
